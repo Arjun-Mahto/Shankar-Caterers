@@ -27,15 +27,15 @@ function Navbar() {
             <li><a href="#home" className="text-gray-700 hover:text-red-700">Home</a></li>
             <li><a href="#about" className="text-gray-700 hover:text-red-700">About</a></li>
             <li><a href="#CateringServices" className="text-gray-700 hover:text-red-700">Services </a></li>
-            <li><a href="#menu" className="text-gray-700 hover:text-red-700">Menu</a></li>
-            <li><a href="#gallery" className="text-gray-700 hover:text-red-700">Gallery</a></li>
+            {/* <li><a href="#menu" className="text-gray-700 hover:text-red-700">Menu</a></li> */}
+            {/* <li><a href="#gallery" className="text-gray-700 hover:text-red-700">Gallery</a></li> */}
             <li><a href="#contact" className="text-gray-700 hover:text-red-700">Contact</a></li>
           </ul>
 
           {/* Book Now Button (Desktop only) */}
           <a
             href="#contact"
-            className="hidden md:block bg-yellow-600 px-5 text-black py-2 rounded-full hover:bg-blue-800 hover:text-white transition"
+            className="hidden md:block bg-yellow-600 px-5 text-black py-2 rounded-full hover:bg-amber-600 hover:text-white transition hover:scale-105"
           >
             Book Now
           </a>
@@ -56,8 +56,8 @@ function Navbar() {
               <li><a href="#home" className="text-gray-700 hover:text-red-700">Home</a></li>
               <li><a href="#about" className="text-gray-700 hover:text-red-700">About</a></li>
               <li><a href="#services" className="text-gray-700 hover:text-red-700">Services</a></li>
-              <li><a href="#menu" className="text-gray-700 hover:text-red-700">Menu</a></li>
-              <li><a href="#gallery" className="text-gray-700 hover:text-red-700">Gallery</a></li>
+              {/* <li><a href="#menu" className="text-gray-700 hover:text-red-700">Menu</a></li>
+              <li><a href="#gallery" className="text-gray-700 hover:text-red-700">Gallery</a></li> */}
               <li><a href="#contact" className="text-gray-700 hover:text-red-700">Contact</a></li>
               <li>
                 <a
