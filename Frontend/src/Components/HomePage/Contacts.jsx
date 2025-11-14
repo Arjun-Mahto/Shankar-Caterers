@@ -4,6 +4,12 @@ function Contacts() {
   const { register, handleSubmit } = useForm();
 
   const onSubmit = (data) => {
+    if(data.name === "" || data.number === "" || data.event === "" || data.guests === "" || data.date === "")
+       alert("Please fill all the fields");
+    else
+      alert("Form submitted successfully!");
+      
+    
     console.log(data);
   };
 

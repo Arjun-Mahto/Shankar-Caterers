@@ -19,7 +19,7 @@ function HeroSection() {
           Welcome to Shankar Caterers
         </h3>
         <h1 className="text-4xl md:text-6xl font-bold text-white my-4">
-          Namaste! 🙏
+          Namaste!
         </h1>
         <p className="text-gray-200 md:text-lg leading-relaxed">
            We cater all types of functions including weddings, birthday parties,

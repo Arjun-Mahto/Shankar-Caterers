@@ -8,12 +8,12 @@ function About() {
         <div className="relative flex gap-4">
           <img
             src="https://images.pexels.com/photos/1114425/pexels-photo-1114425.jpeg"
-            alt="Kebabs"
+            alt="About Image1"
             className="rounded-2xl shadow-lg w-1/2 object-cover"
           />
           <img
             src="https://images.pexels.com/photos/2814828/pexels-photo-2814828.jpeg"
-            alt="North Indian Thali"
+            alt="About Image2"
             className="rounded-2xl shadow-lg w-1/2 object-cover"
           />
 
@@ -31,7 +31,7 @@ function About() {
             <span className="text-red-700">Great Food.</span>
           </h2>
           <p className="text-gray-600 mb-6">
-            Shankar Caterers has been serving happiness for over 25 years.
+            Shankar Caterers has been serving happiness for over 15 years.
             Whether it’s a wedding, birthday party, kitty party, or corporate
             event – we make every celebration special with our mouthwatering
             vegetarian and non-vegetarian delicacies, chaats, sweets, and royal
@@ -41,7 +41,7 @@ function About() {
           {/* Stats */}
           <div className="grid sm:grid-cols-3 gap-6">
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
-              <p className="text-3xl font-bold text-red-700">10+</p>
+              <p className="text-3xl font-bold text-red-700">15+</p>
               <p className="text-gray-600 mt-2">Years of Experience</p>
             </div>
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
@@ -49,7 +49,7 @@ function About() {
               <p className="text-gray-600 mt-2">Successful Events</p>
             </div>
             <div className="bg-white shadow-md rounded-xl p-6 text-center">
-              <p className="text-3xl font-bold text-red-700">98%</p>
+              <p className="text-3xl font-bold text-red-700">90%</p>
               <p className="text-gray-600 mt-2">Repeated Customers</p>
             </div>
           </div>

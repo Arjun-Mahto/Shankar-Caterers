@@ -26,7 +26,7 @@ function Navbar() {
           <ul className="hidden md:flex space-x-8 font-medium">
             <li><a href="#home" className="text-gray-700 hover:text-red-700">Home</a></li>
             <li><a href="#about" className="text-gray-700 hover:text-red-700">About</a></li>
-            <li><a href="#services" className="text-gray-700 hover:text-red-700">Services</a></li>
+            <li><a href="#CateringServices" className="text-gray-700 hover:text-red-700">Services </a></li>
             <li><a href="#menu" className="text-gray-700 hover:text-red-700">Menu</a></li>
             <li><a href="#gallery" className="text-gray-700 hover:text-red-700">Gallery</a></li>
             <li><a href="#contact" className="text-gray-700 hover:text-red-700">Contact</a></li>

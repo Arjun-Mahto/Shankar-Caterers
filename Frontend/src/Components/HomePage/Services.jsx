@@ -1,7 +1,8 @@
 
-import weddingImg from "../../assets/wedding.jpg"; // replace with your image path
-import corporateImg from "../../assets/corporate.jpg"; // replace with your image path
-import birthdayImg from "../../assets/birthday.jpg"; // replace with your image path
+import weddingImg from "../../assets/wedding.jpg"; 
+import corporateImg from "../../assets/corporate.jpg"; 
+import birthdayImg from "../../assets/birthday.jpg"; 
+
 
 const services = [
   {
@@ -26,7 +27,7 @@ const services = [
 
 const CateringServices = () => {
   return (
-    <div className="py-16 px-4 md:px-16 bg-white">
+    <div id="CateringServices" className="py-16 px-4 md:px-16 bg-white ">
       <div className="text-center mb-12">
         <p className="text-sm text-gray-500 uppercase tracking-wider">
           WHAT WE DO
